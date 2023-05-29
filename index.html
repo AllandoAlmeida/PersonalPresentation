@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,16 @@
     <!-- Google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <main class="resume-contents">
         <section class="left-section">
@@ -29,25 +32,19 @@
                 <div class="contact-info">
                     <p class="left-title">Contato</p>
                     <ul>
-                        <li><i class="fa fa-phone"></i>+55(11) 94771-5171
-                        </li>
-                        <li><i class="fa fa-whatsapp"></i>+55(11) 94076-9502
-                        </li>
-                        <li><i class="fa fa-envelope"></i>alandoalmeida@icloud.com
-                        </li>
-                        
-                        <li><i class="fa fa-github"></i>https://github.com/AllandoAlmeida
-                        </li>
+                        <li><i class="fa fa-envelope"></i>alandoalmeida@icloud.com</li>
+                        <li><i class="fa fa-linkedin"></i>https://www.linkedin.com/in/alandoalmeida/</li>
+                        <li><i class="fa fa-github"></i>https://github.com/AllandoAlmeida</li>
                     </ul>
                 </div>
                 <div class="skills">
                     <p class="left-title">Skills</p>
-                    <ul>
-                        <li><p>Python3, JavaScript</p></li>
-                        <li><p>Java</p></li>
-                        <li><p>HTML5 & CSS3</p></li>
-                        <li><p>SQL, Postgres</p></li>
-                        <li><p>Git & GitHub</p></li>
+                    <ul class="left-title__items">
+                        <li>Python3, JavaScript</li>
+                        <li>Java</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>SQL, Postgres</li>
+                        <li>Git & GitHub</li>
                     </ul>
                 </div>
             </div>
@@ -56,129 +53,180 @@
         <section class="right-section">
             <div class="right-section-contents">
                 <section class="about gap">
-                    <div class="right-title">Sobre Mim</div>
-                    <p class="about-me-contents">
-                        Olá, Sou o Alando.<br>
-                        Vivência profissional nos segmentos de concessão de Rodovias voltado auditoria e análise de indicadores de passagens e tráfego de veículos, 
-                        e de materiais de construção, serviços, varejo, financeiro, e recursos humanos, tendo atuado em diversos níveis de execução, coordenação, 
-                        supervisão e gerência. Gestor comercial de indicadores de performance e desenvolvimento de pessoas. 
-                        Determinação, persistência, proatividade, forte atuação em grupo, empreendedorismo e dedicação, aliadas à organização e planejamento estratégico
-                        completam meu perfil.
-                        Mantenho como objetivo profissional principal, a gestão de equipes que se destaquem dentro da empresa e buscando atingir outros níveis na área de 
-                        gestão e liderança da empresa.
-                    <br>
+                    <div>
+                        <h2 class="right-title">Sobre Mim</h2>
+                        <div class="about-me-contents">
+                            <p>
+                                Olá, Sou o Alando.
+                            </p>
+                            <p>
+                                Com mais de 26 anos de experiência no comércio varejista como Gerente de Loja, decidi
+                                recentemente fazer uma mudança de carreira para a área de desenvolvimento Full Stack Web.
+                                Graduei-me em Análise e Desenvolvimento de Sistemas pela renomada Universidade União
+                                Educacional, Cultura e Tecnológica Impacta há dois anos e atualmente estou me capacitando
+                                como
+                                Desenvolvedor Fullstack na Kenzie Academy Brasil, e cursando minha pós-graduação em
+                                Desenvolvimento Web Fullstack na Universidade Unileya – Unyead Educacional SA.</p>
+                            <p>
+                                Estou sempre buscando aprender mais e aprimorar minhas habilidades em HTML, JavaScript, CSS
+                                e
+                                outras tecnologias relacionadas. Meu objetivo é me tornar um desenvolvedor Full Stack
+                                altamente
+                                qualificado e especializar-me em Infraestrutura para Desenvolvimento Web e Desenvolvimento
+                                Back-End. Estou especialmente interessado em aprender sobre Gestão de Configuração e Mudança
+                                -
+                                DevOps, React Js, Python e SQL.
+                            </p>
+                            <p>
+                                Com uma ampla experiência em liderança e gestão, estou bem preparado para trabalhar em
+                                equipe e
+                                colaborar em projetos complexos de desenvolvimento. Minha habilidade em lidar com pressão e
+                                prazos apertados, adquirida na minha carreira como Gerente de Loja, também é um trunfo para
+                                meu
+                                sucesso na área de tecnologia. Estou animado para continuar minha jornada de aprendizado e
+                                colaborar com equipes de tecnologia inovadoras.
+                            </p>
 
-                        Especificações:
-
-                        Auditoria, Analise da dados e Indicadores, Administração de RH, Gerenciamento de Filial, Supervisão Financeira, Treinamento e Desenvolvimento de Pessoal, 
-                        Gerenciamento de Equipe de Vendas e Multi tarefas, Planejamento Estratégico, Apresentação de Eventos, Gerenciamento Administrativo
-                    </p>
+                        </div>
+                    </div>
+                    <div class="about-me-contents">
+                        <h2>Especificações:</h2>
+                        <p>
+                            Auditoria, Analise da dados e Indicadores, Administração de RH, Gerenciamento de Filial,
+                            Supervisão Financeira, Treinamento e Desenvolvimento de Pessoal,
+                            Gerenciamento de Equipe de Vendas e Multi tarefas, Planejamento Estratégico, Apresentação de
+                            Eventos, Gerenciamento Administrativo
+                        </p>
+                    </div>
                 </section>
-            
-            <section class="experience gap">
-                <div class="right-title">Experiência</div>  
-                <div class="experience-contents">
-                    <div class="exp-left">
-                        <p class="exp-company-name">ARTESP </p>
-                        <p class="exp-time-periodo">mar de 2019- Presente</p>
+
+                <section class="experience gap">
+                    <div class="right-title">Experiência</div>
+                    <div class="experience-contents">
+                        <div class="exp-left">
+                            <p class="exp-company-name">AGENCIA REGULADORA DE SERVICOS PUBLICOS DELEGADOS DE TRANSPORTE DO ESTADO DE SAO PAULO ARTESP </p>
+                            <p class="exp-time-periodo">mar de 2019- Nov de 2022</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Analista administrativo</p>
+                            <p class="exp-desc">
+                                Analise de indicadores de passagens, trafego, imagens, evasões, Mensageria,
+                                comunicação de equipamentos de pista e EGC, Suporte a Agências
+                            </p>
+                        </div>
+                        <div class="exp-left">
+                            <p class="exp-company-name">Comercio De Materiais Para Construcao Joli Ltda</p>
+                            <p class="exp-time-periodo">jul de 2018 - mar de 2019</p>
+                            <p class="exp-time-periodo">fev de 2016 - jul de 2018</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Gerente de loja</p>
+                            <p class="exp-position">Sub-Gerente de Loja</p>
+                            <p class="exp-desc">
+                                Analise de indicadores tais como metas, atendimento, performance individual,
+                                implementação de estratégias
+                                Suporte a clientes, reclamações, devoluções, gestão de conflitos, Feedback e avaliação
+                                de colaboradores, motivação de equipe,
+                            </p>
+                        </div>
+                        <div class="exp-left">
+                            <p class="exp-company-name">Saint-Gobain Distribuição Brasil</p>
+                            <p class="exp-time-periodo">mai de 2005 - nov de 2014</p>
+                        </div>
+                        <div class="exp-right">
+                            <p class="exp-position">Gerente Comercial de Vendas</p>
+                            <p class="exp-desc">
+                                Analise de indicadores tais como metas, EHS, Budget, Prevença e perdas, Inventário,
+                                atendimento, performance individual, implementação de estratégias
+                                Suporte a clientes, reclamações, devoluções, gestão de conflitos, Feedback e avaliação
+                                de colaboradores, motivação de equipe,
+                            </p>
+                        </div>
                     </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Analista administrativo</p>
-                        <p class="exp-desc">
-                            Analise de indicadores de passagens, trafego, imagens, evasões, Mensageria,
-                            comunicação de equipamentos de pista e EGC, Suporte a Agências
-                        </p>
+                </section>
+                <section class="education gap">
+                    <div class="right-title">Formação academica</div>
+                    <div class="education-contents">
+                        <div class="education-left">
+                            <p class="education-school-name">Unileya - Unyead Educacional SA</p>
+                            <p class="education-time-period">2021 - 2023</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">Desenvolvedor Fullstack Web</p>
+                            <p class="education-desc">
+                                Pós-Graduação - (Em Formação)
+                            </p>
+                        </div>
+                        <div class="education-left">
+                            <p class="education-school-name">Impacta - Faculdade de tecnologia</p>
+                            <p class="education-time-period">2019 - 2022</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">Analista Dev. de Sistema</p>
+                            <p class="education-desc">
+                                Graduação
+                            </p>
+                        </div>
+                        <div class="education-left">
+                            <p class="education-school-name">Radial - Universidade Estácio Radial</p>
+                            <p class="education-time-period">2000 - 2003</p>
+                        </div>
+                        <div class="education-right">
+                            <p class="education-subject">Gestão Emp. varejo Materiais de construção</p>
+                            <p class="education-desc">
+                                Graduação
+                            </p>
+                        </div>
                     </div>
-                    <div class="exp-left">
-                        <p class="exp-company-name">Comercio De Materiais Para Construcao Joli Ltda</p>
-                        <p class="exp-time-periodo">jul de 2018 - mar de 2019</p>
-                        <p class="exp-time-periodo">fev de 2016 - jul de 2018</p>
+                </section>
+                <section class="awards gap">
+                    <div class="right-title">Cursos</div>
+                    <div class="awards-contents">
+                        <div class="awards-left">
+                            <p class="awards-company-name">Kenzie Academy Brasil</p>
+                            <p class="awards-time-period">Outubro 2023 formação 2024</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">HTML, CSS, ES6, React</p>
+                            <p class="awards-desc">Desenvolvedor Fullstack Web</p>
+                        </div>
+                        <div class="awards-left">
+                            <p class="awards-company-name">Escola Britânica de A. Criativas e tecnologia</p>
+                            <p class="awards-time-period">Outubro 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">HTML e CSS</p>
+                            <p class="awards-desc">Jornada Dev</p>
+                        </div>
+                        <div class="awards-left">
+                            <p class="awards-company-name">Hagtag Treinamento</p>
+                            <p class="awards-time-period">Maio de 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Intensivão Python3 Impressionador</p>
+                            <p class="awards-desc">Curso EAD analise e manipulação de Dados</p>
+                        </div>
+                        <div class="awards-left">
+                            <p class="awards-company-name">Hagtag Treinamento</p>
+                            <p class="awards-time-period">Janeiro de 2022</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Intensivão SQL Impressionador</p>
+                            <p class="awards-desc">Curso EAD analise e manipulação de Dados</p>
+                        </div>
+                        <div class="awards-left">
+                            <p class="awards-company-name">kenzie Academy Brasil</p>
+                            <p class="awards-time-period">Agosto de 2021</p>
+                        </div>
+                        <div class="awards-right">
+                            <p class="awards-name">Projeto DEV</p>
+                            <p class="awards-desc">Curso Python3, SQL, HTML e CSS</p>
+                        </div>
                     </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Gerente de loja</p>
-                        <p class="exp-position">Sub-Gerente de Loja</p>
-                        <p class="exp-desc">
-                            Analise de indicadores tais como metas, atendimento, performance individual, implementação de estratégias
-                            Suporte a clientes, reclamações, devoluções, gestão de conflitos, Feedback e avaliação de colaboradores, motivação de equipe, 
-                        </p>
-                    </div>
-                    <div class="exp-left">
-                        <p class="exp-company-name">Saint-Gobain Distribuição Brasil</p>
-                        <p class="exp-time-periodo">mai de 2005 - nov de 2014</p>
-                    </div>
-                    <div class="exp-right">
-                        <p class="exp-position">Gerente Comercial de Vendas</p>
-                        <p class="exp-desc">
-                            Analise de indicadores tais como metas, EHS, Budget, Prevença e perdas, Inventário, atendimento, performance individual, implementação de estratégias
-                            Suporte a clientes, reclamações, devoluções, gestão de conflitos, Feedback e avaliação de colaboradores, motivação de equipe,
-                        </p>
-                    </div>
-                </div>               
-            </section>
-            <section class="education gap">
-                <div class="right-title">Formação academica</div>
-                <div class="education-contents">
-                    <div class="education-left">
-                        <p class="education-school-name">Impacta - Faculdade de tecnologia</p>
-                        <p class="education-time-period">2019 - 2022</p>
-                    </div>                                     
-                    <div class="education-right">
-                        <p class="education-subject">Analista Dev. de Sistema</p>
-                        <p class="education-desc">
-                            Graduação
-                        </p>
-                    </div>
-                    <div class="education-left">
-                        <p class="education-school-name">Radial - Universidade Estácio Radial</p>
-                        <p class="education-time-period">2000 - 2003</p>
-                    </div>                                     
-                    <div class="education-right">
-                        <p class="education-subject">Gestão Emp. varejo Materiais de construção</p>
-                        <p class="education-desc">
-                            Graduação
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="awards gap">
-                <div class="right-title">Cursos</div>
-                <div class="awards-contents">
-                    <div class="awards-left">
-                        <p class="awards-company-name">Escola Britânica de A. Criativas e tecnologia</p>
-                        <p class="awards-time-period">Outubro 2022</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">HTML e CSS</p>
-                        <p class="awards-desc">Jornada Dev</p>
-                    </div>
-                    <div class="awards-left">
-                        <p class="awards-company-name">Hagtag Treinamento</p>
-                        <p class="awards-time-period">Maio de 2022</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Intensivão Python3 Impressionador</p>
-                        <p class="awards-desc">Curso EAD analise e manipulação de Dados</p>
-                    </div>
-                    <div class="awards-left">
-                        <p class="awards-company-name">Hagtag Treinamento</p>
-                        <p class="awards-time-period">Janeiro de 2022</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Intensivão SQL Impressionador</p>
-                        <p class="awards-desc">Curso EAD analise e manipulação de Dados</p>
-                    </div>
-                    <div class="awards-left">
-                        <p class="awards-company-name">kenzie Academy Brasil</p>
-                        <p class="awards-time-period">Agosto de 2021</p>
-                    </div>
-                    <div class="awards-right">
-                        <p class="awards-name">Projeto DEV</p>
-                        <p class="awards-desc">Curso Python3, SQL, HTML e CSS</p>
-                    </div>
-                </div>
-            </section>
-        </div>
+                </section>
+            </div>
         </section>
     </main>
 </body>
+
 </html>
